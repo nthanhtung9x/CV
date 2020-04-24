@@ -1,0 +1,227 @@
+.wrapper {
+  background-color: #D8D8D8;
+  padding: 24px 0; }
+  .wrapper .bg__wrap {
+    background-color: #fff; }
+    .wrapper .bg__wrap .left__wrapper {
+      height: 100%;
+      text-align: center;
+      padding: 24px 12px;
+      background: #283D3E;
+      transform: translateX(100%) skewX(10deg);
+      opacity: 0;
+      animation: intro 0.4s linear forwards; }
+      .wrapper .bg__wrap .left__wrapper img {
+        width: 60%;
+        height: 25rem;
+        border-radius: 50%;
+        border: 1px solid #007BFF;
+        opacity: 0;
+        animation: opacityText 0.8s linear 0.8s forwards; }
+      .wrapper .bg__wrap .left__wrapper .name {
+        font-size: 3rem;
+        padding-top: 12px;
+        color: #fff;
+        opacity: 0;
+        animation: opacityText 0.8s linear 1.2s forwards; }
+      .wrapper .bg__wrap .left__wrapper .profile {
+        margin: 12px 0;
+        opacity: 0;
+        animation: opacityText 0.8s linear 1.6s forwards; }
+        .wrapper .bg__wrap .left__wrapper .profile h5 {
+          font-size: 2.4rem;
+          color: #fff;
+          background: #2BADBA;
+          padding: 8px 0;
+          border-radius: 4px;
+          margin-bottom: 12px; }
+        .wrapper .bg__wrap .left__wrapper .profile .contact__link {
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-size: 2.2rem;
+          margin: 12px 0; }
+          .wrapper .bg__wrap .left__wrapper .profile .contact__link .contact__icon {
+            display: block;
+            width: 20%;
+            color: #fff;
+            transform: scale(1);
+            transition: all 0.4s;
+            font-size: 2.4rem; }
+          .wrapper .bg__wrap .left__wrapper .profile .contact__link span {
+            display: block;
+            width: 80%;
+            text-align: left;
+            color: #fff; }
+          .wrapper .bg__wrap .left__wrapper .profile .contact__link:hover .contact__icon {
+            transform: scale(1.2); }
+        .wrapper .bg__wrap .left__wrapper .profile .school {
+          font-size: 2rem;
+          color: #fff;
+          line-height: 1.4; }
+        .wrapper .bg__wrap .left__wrapper .profile .scholl__status {
+          font-size: 2rem;
+          color: #fff;
+          line-height: 1.4;
+          margin-top: 4px; }
+        .wrapper .bg__wrap .left__wrapper .profile .skill {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          padding: 12px; }
+          .wrapper .bg__wrap .left__wrapper .profile .skill .skill__name {
+            width: 30%;
+            font-size: 2rem;
+            color: #fff;
+            margin: 8px 0;
+            text-align: left; }
+          .wrapper .bg__wrap .left__wrapper .profile .skill .progress__bar {
+            width: 70%;
+            position: relative;
+            padding: 6px 0;
+            background: #ccc;
+            border-radius: 12px; }
+            .wrapper .bg__wrap .left__wrapper .profile .skill .progress__bar .progress {
+              padding: 6px 0;
+              background: #FFC107;
+              border-radius: 12px;
+              position: absolute;
+              top: 0;
+              left: 0; }
+        .wrapper .bg__wrap .left__wrapper .profile .hobbies {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 24px; }
+          .wrapper .bg__wrap .left__wrapper .profile .hobbies span {
+            color: #fff;
+            font-size: 3rem; }
+            .wrapper .bg__wrap .left__wrapper .profile .hobbies span i {
+              transform: scale(1);
+              transition: all 0.4s; }
+              .wrapper .bg__wrap .left__wrapper .profile .hobbies span i:hover {
+                transform: scale(1.2); }
+    .wrapper .bg__wrap .right__wrapper {
+      overflow: hidden;
+      height: 100%; }
+      .wrapper .bg__wrap .right__wrapper .heading {
+        display: flex;
+        align-items: center;
+        margin-left: -4px;
+        margin-bottom: 8px;
+        transform: skewX(-10deg) scale(0);
+        transform-origin: top left;
+        opacity: 0;
+        animation: transformHeading 0.8s linear 1.8s forwards; }
+        .wrapper .bg__wrap .right__wrapper .heading h5 {
+          width: 90%;
+          font-size: 2.4rem;
+          color: #fff;
+          padding: 12px 24px;
+          height: 5.1rem;
+          background-color: #2BADBA; }
+        .wrapper .bg__wrap .right__wrapper .heading p {
+          margin-left: 8px;
+          height: 5.1rem;
+          width: 4%;
+          background-color: #000; }
+      .wrapper .bg__wrap .right__wrapper .right__name {
+        padding: 4px 12px;
+        font-size: 3rem;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards; }
+      .wrapper .bg__wrap .right__wrapper .right__work {
+        padding: 4px 12px;
+        font-size: 2.4rem;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards; }
+      .wrapper .bg__wrap .right__wrapper .right__text {
+        font-size: 2.4rem;
+        padding: 4px 12px;
+        line-height: 1.6;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards; }
+      .wrapper .bg__wrap .right__wrapper .introduce {
+        width: 90%;
+        font-size: 2rem;
+        line-height: 1.6;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards; }
+      .wrapper .bg__wrap .right__wrapper .header__demo {
+        font-size: 3rem;
+        padding: 12px;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards; }
+      .wrapper .bg__wrap .right__wrapper .list {
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.4s forwards;
+        padding: 12px; }
+        .wrapper .bg__wrap .right__wrapper .list .item {
+          padding: 12px 0; }
+          .wrapper .bg__wrap .right__wrapper .list .item .item__link {
+            font-size: 2.4rem;
+            color: #000;
+            text-decoration: underline; }
+            .wrapper .bg__wrap .right__wrapper .list .item .item__link:hover {
+              text-decoration: none; }
+      .wrapper .bg__wrap .right__wrapper span {
+        font-size: 2rem;
+        padding: 0 12px 0px;
+        font-weight: 600;
+        transform-origin: center left;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.6s forwards; }
+        .wrapper .bg__wrap .right__wrapper span .readMore {
+          color: #FEC008;
+          font-size: 2.4rem;
+          font-weight: 600; }
+      .wrapper .bg__wrap .right__wrapper .footer {
+        position: relative;
+        margin: 42px 0;
+        transform-origin: center center;
+        transform: scale(0);
+        opacity: 0;
+        animation: transformText 0.8s linear 2.8s forwards; }
+        .wrapper .bg__wrap .right__wrapper .footer .footer__bg {
+          border: 1px solid;
+          box-shadow: 0 0 0 10px #283D3E;
+          width: 15rem;
+          height: 15rem;
+          margin: auto;
+          transform: rotate(45deg);
+          z-index: 3;
+          position: relative;
+          background: #fff; }
+        .wrapper .bg__wrap .right__wrapper .footer .footer__text {
+          position: absolute;
+          font-size: 1.8rem;
+          font-weight: 600;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 3; }
+        .wrapper .bg__wrap .right__wrapper .footer::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          padding: 12px;
+          background-color: #2CADBA;
+          z-index: 1; }
+
+/*# sourceMappingURL=main.css.map */
