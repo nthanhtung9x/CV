@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="./typed.min.js"></script>
+    <style>
+        #typed {
+            padding: 0 0 0 12px;
+        }
+        .typed-cursor {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    </style>
     <title>My CV</title>
 </head>
 <body>
@@ -96,7 +106,11 @@
                                     <p></p>
                                 </div>
                                 <h4 class="right__name">Nguyễn Thanh Tùng</h4>
-                                <h5 class="right__work">FRONT-END DEVELOPER</h5>
+                                <h5 class="right__work" id="typed-strings">
+                                    <p>FRONT-END DEVELOPER</p>
+                                    <p>LẬP TRÌNH VIÊN FRONT-END</p>
+                                </h5>
+                                <span id="typed"></span>
                                 <p class="right__text">Thành thạo HTML, CSS, Javascript cơ bản, cắt PSD.<br> Framework có thể sử dụng: ReactJS.</p>
 
                                 <div class="heading">
@@ -157,5 +171,13 @@
             </div>
         </div>
     </section>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 40,
+            backSpeed: 40,
+            loop:true
+        });
+    </script>
 </body>
 </html>
